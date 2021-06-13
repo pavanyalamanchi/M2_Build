@@ -7,15 +7,16 @@
     padding: 0 25rem 0 25rem;
 }
 
+.card-body:hover {
+    background-color: orange;
+}
+
 @media (max-width: 990px) {
     .navbar-brand {
         margin-right: auto;
     }
     .form-inline {
         margin-right: 1rem;
-    }
-    .card-svg {
-        margin-right: 55% !important;
     }
 }
 
@@ -101,7 +102,6 @@ hr {
 }
 
 .card-svg {
-    margin-right: 65%;
     margin-top: 0.25rem;
 }
 
@@ -142,7 +142,20 @@ h6 {
 
 .offer-class {
     color: white;
-    background-color: purple !important;
-    adding-bottom: 0.2rem;
+    background-color: #d00030 !important;
+    padding-bottom: 0.2rem;
     margin-right: 0.5rem;
+    width: fit-content;
+}
+
+.row-width {
+    width: var(--b-width);
+}
+
+.circle-class {
+    margin-right: 1rem;
+    border: 4px solid purple;
+    border-radius: 25px;
+    color: purple;
+    display: inline-flex;
 }
