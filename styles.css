@@ -129,3 +129,20 @@ h6 {
     padding: 0rem 0rem 0rem 0rem;
     color: black !important;
 }
+
+.vertical-line {
+    height: 40px;
+    border-left: 2px solid #a99191;
+}
+
+.GOG-class {
+    color: purple;
+    margin-top: 0.5rem;
+}
+
+.offer-class {
+    color: white;
+    background-color: purple !important;
+    adding-bottom: 0.2rem;
+    margin-right: 0.5rem;
+}
