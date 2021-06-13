@@ -1,14 +1,43 @@
 :root {
     --text-color: white;
+    --b-width: auto;
 }
 
 .navbar-align {
     padding: 0 25rem 0 25rem;
 }
 
+@media (max-width: 990px) {
+    .navbar-brand {
+        margin-right: auto;
+    }
+    .form-inline {
+        margin-right: 1rem;
+    }
+    .card-svg {
+        margin-right: 55% !important;
+    }
+}
+
+@media (max-width:820px) {
+    body {
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .jumbotron img {
+        width: var(--b-width);
+    }
+}
+
 a {
     color: white !important;
     font-size: x-small;
+}
+
+p {
+    font-size: small;
 }
 
 .dropdown-item {
@@ -39,7 +68,7 @@ a {
 }
 
 body {
-    background-color: black;
+    background-color: #2b082b;
 }
 
 svg {
